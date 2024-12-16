@@ -1,0 +1,35 @@
+:root {
+  --bg-light: #F0F8FF;
+  --text-light: #1C1C1C;
+  --light-bg-subtle : #E3F2FD;
+  --bg-dark: #121212;
+  --text-dark: #EDEDED;
+  --dark-bg-subtle: #3F0071;
+}
+
+body.light-theme {
+  --bg-color: var(--bg-light);
+  --text-color: var(--text-light);
+  --plate-color: var(--light-bg-plate);
+}
+
+body.dark-theme {
+  --bg-color: var(--bg-dark);
+  --text-color: var(--text-dark);
+  --plate-color: var(--dark-bg-plate);
+}
+
+body, select, option, .card, .navbar,input, .form-control {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border-color: var(--text-color);
+}
+
+select, option, .card, .navbar,input, .form-control {
+  background-color: var(--plate-color);
+}
+
+.navbar a,
+.navbar button {
+  color: var(--text-color);
+}
