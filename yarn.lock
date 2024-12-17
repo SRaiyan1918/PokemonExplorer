@@ -7987,6 +7987,11 @@ react-error-overlay@^6.0.11:
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.11.tgz"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
 
+react-infinite-scroll-component@3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/react-infinite-scroll-component/-/react-infinite-scroll-component-3.0.1.tgz#66a893a5e703974543f7aee7a2d7326c70b748ce"
+  integrity sha512-G4z0L2o6Su73l9hsEmQ+93At4wK8vpDPVcNTBmnhH7Kwj/D7ifnMJuo4fiNKlqg/89+OpUrvaQrxGgkT4YV9ww==
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
